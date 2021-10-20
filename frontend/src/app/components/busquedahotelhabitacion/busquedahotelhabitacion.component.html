@@ -1,15 +1,13 @@
-<body>
-    
     <a name="arriba"></a>
     <header>
         <img src="../imagenes/checkinBGA.png" alt="logo">
-         <center>
+         <div class="center">
         <h1>Busqueda de Hoteles y Habitaciones</h1>
-    </center>
+    </div>
         
 </header>
 <br>
-<center>
+<div class="center">
     <a class="btn btn-outline-info" href="../subsitio/inicio.html" > <b>Inicio</b> </a>
     <a class="btn btn-outline-info" href="../subsitio/reserva.html" ><b>Reservar</b> </a>
     <a class="btn btn-outline-info" href="../subsitio/historial.html" ><b>Historial</b> </a>
@@ -17,84 +15,88 @@
     <a class="btn btn-outline-info" href="../subsitio/galeria.html"> <b>Galeria</b></a> 
     <a class="btn btn-outline-info" href="../subsitio/darsedebaja.html" > <b>Darse de baja</b> </a>
     <a class="btn btn-outline-info" href="../subsitio/ajustesdeperfil.html" > <b>Ajustes de perfil</b> </a>    
-</center>
+</div>
 <br>
 <!-- EMPIEZA EL NAV -->
-    <nav> <center><p>Seleccione las opciones para configurar su busqueda:</p></center>
-<hr>
-<center>
-<form action="../archivo.php" target="_blank">
-Hotel:
-    <select name="hoteles">
-        <option value="seleccione">Seleccione</option>
-        <option value="hotel1">Holiday Inn Bucaramanga Cacique</option>
-        <option value="hotel2">Mediterraneo Victoria Regia</option>
-    </select>
-    ...Habitaciones:
-        <select name="Habitaciones">
-            <option value="seleccione">Seleccione</option>
-            <option value="Suite">Suite</option>
-            <option value="Queen">Queen</option>
-            <option value="Individual">Individual</option>
-            <option value="Doble">Doble</option>
-        </select>
-    ...Minibar:
-        <select name="Minibar">
-            <option value="seleccione">Seleccione</option>
-            <option value="Miniba">Si</option>
-            <option value="Miniba">No</option>
-        </select>
-    ...Piso:
-        <select name="pisos">
-            <option value="seleccione">Seleccione</option>
-            <option value="p2">Piso 2</option>
-            <option value="p3">Piso 3</option>
-            <option value="p4">Piso 4</option>
-        </select>
-    ...Capacidad:
-        <select name="Capacidad">
-            <option value="seleccione">Seleccione</option>
-            <option value="c1">1 persona</option>
-            <option value="c2">2 personas</option>
-        </select>
-         <input type="submit" value="Buscar">
-    <form>
-<!-- TERMINAN LOS DESPLEGABLES -->
- 
-    Busqueda por Codigo<input type="text" placeholder="Buscar">
+<div class="center">
 
-</center>
-</nav>
-    <section>
-         <a href="#abajo">Ir al pie de pagina</a>
-
+    <nav> <div class="center"><p>Seleccione las opciones para configurar su busqueda:</p></div>
+        <hr>
+        <form action="../archivo.php" target="_blank">
+            <select name="hoteles">
+                <option value="seleccione">Seleccione</option>
+                <option value="hotel1">Holiday Inn Bucaramanga Cacique</option>
+                <option value="hotel2">Mediterraneo Victoria Regia</option>
+            </select>
+            <p>
+            ...Habitaciones:
+            </p>
+            <select name="Habitaciones">
+                <option value="seleccione">Seleccione</option>
+                <option value="Suite">Suite</option>
+                <option value="Queen">Queen</option>
+                <option value="Individual">Individual</option>
+                <option value="Doble">Doble</option>
+            </select>
+            
+            <select name="Minibar">
+                <option value="seleccione">Seleccione</option>
+                <option value="Miniba">Si</option>
+                <option value="Miniba">No</option>
+            </select>
+            
+            <select name="pisos">
+                <option value="seleccione">Seleccione</option>
+                <option value="p2">Piso 2</option>
+                <option value="p3">Piso 3</option>
+                <option value="p4">Piso 4</option>
+            </select>
+            <p>
+                ...Capacidad:
+            </p>
+            <select name="Capacidad">
+                <option value="seleccione">Seleccione</option>
+                <option value="c1">1 persona</option>
+                <option value="c2">2 personas</option>
+            </select>
+            <input type="submit" value="Buscar">
+        </form>
+                <!-- TERMINAN LOS DESPLEGABLES -->
+                
+                Busqueda por Codigo<input type="text" placeholder="Buscar">
+                
+            </nav>
+        </div>
+            <section>
+                <a href="#abajo">Ir al pie de pagina</a>
+                
         <article id="articulo1">
-            <center>
+            <div class="center">
         <table id="tabla" align="center" cellspacing="10px" cellspacing="0" border="4">
             <tr>
-                <th><center><h6>Codigo</h6></center></th>
-                <th><center><h6>Hotel<h6></center></th>
-                <th><center><h6>Tipo de Habitación<h6></center></th>
-                <th><center><h6>Piso<h6></center></th>
-                <th><center><h6>Número<h6></center></th>
-                <th><center><h6>Precio<h6></center></th>
-                <th><center><h6>Minibar<h6></center></th>
-                <th><center><h6>Capacidad<h6></center></th>
-                <th><center><h6>Ver foto<h6></center></th>
+                <th><div class="center"><h6>Codigo</h6></div></th>
+                <th><div class="center"><h6>Hotel</h6></div></th>
+                <th><div class="center"><h6>Tipo de Habitación</h6></div></th>
+                <th><div class="center"><h6>Piso</h6></div></th>
+                <th><div class="center"><h6>Número</h6></div></th>
+                <th><div class="center"><h6>Precio</h6></div></th>
+                <th><div class="center"><h6>Minibar</h6></div></th>
+                <th><div class="center"><h6>Capacidad</h6></div></th>
+                <th><div class="center"><h6>Ver foto</h6></div></th>
 
             </tr>
             <tr>
-                <th><center><h6>101<h6></center></th>
-                <th><center><h6>Holiday Inn Bucaramanga Cacique<h6></center></th>
-                <th><center><h6>Suite<h6></center></th>
-                <th><center><h6>Tercero<h6></center></th>
-                <th><center><h6>303<h6></center></th>
-                <th><center><h6>$352.500<h6></center></th>
-                <th><center><h6>Si<h6></center></th>
-                <th><center><h6>2 Personas<h6></center></th>
-                <th><center>
+                <th><div class="center"><h6>101</h6></div></th>
+                <th><div class="center"><h6>Holiday Inn Bucaramanga Cacique</h6></div></th>
+                <th><div class="center"><h6>Suite</h6></div></th>
+                <th><div class="center"><h6>Tercero</h6></div></th>
+                <th><div class="center"><h6>303</h6></div></th>
+                <th><div class="center"><h6>$352.500</h6></div></th>
+                <th><div class="center"><h6>Si</h6></div></th>
+                <th><div class="center"><h6>2 Personas</h6></div></th>
+                <th><div class="center">
                 <a href="../subsitio/galeria.html#foto1" target="_blank">fotografia</a>
-                </center></th>
+                </div></th>
 
 
 <!-- 
@@ -106,116 +108,116 @@ Hotel:
             <!-- NUEVO ELEMENTO EN LA LISTA -->
             
             <tr>
-                <th><center><h6>102<h6></center></th>
-                <th><center><h6>Holiday Inn Bucaramanga Cacique<h6></center></th>
-                <th><center><h6>Individual<h6></center></th>
-                <th><center><h6>Segundo<h6></center></th>
-                <th><center><h6>201<h6></center></th>
-                <th><center><h6>$150.500<h6></center></th>
-                <th><center><h6>No<h6></center></th>
-                <th><center><h6>1 Persona<h6></center></th>
-                    <th><center>
+                <th><div class="center"><h6>102</h6></div></th>
+                <th><div class="center"><h6>Holiday Inn Bucaramanga Cacique</h6></div></th>
+                <th><div class="center"><h6>Individual</h6></div></th>
+                <th><div class="center"><h6>Segundo</h6></div></th>
+                <th><div class="center"><h6>201</h6></div></th>
+                <th><div class="center"><h6>$150.500</h6></div></th>
+                <th><div class="center"><h6>No</h6></div></th>
+                <th><div class="center"><h6>1 Persona</h6></div></th>
+                    <th><div class="center">
                         <a href="../subsitio/galeria.html#foto2" target="_blank">fotografia</a>
-                        </center></th>
+                        </div></th>
      
             </tr>
             <!-- NUEVO ELEMENTO EN LA LISTA 2 -->
             
             <tr>
-                <th><center><h6>103<h6></center></th>
-                <th><center><h6>Holiday Inn Bucaramanga Cacique<h6></center></th>
-                <th><center><h6>Doble<h6></center></th>
-                <th><center><h6>Segundo<h6></center></th>
-                <th><center><h6>204<h6></center></th>
-                <th><center><h6>$200.500<h6></center></th>
-                <th><center><h6>Si<h6></center></th>
-                <th><center><h6>2 Personas<h6></center></th>
-                    <th><center>
+                <th><div class="center"><h6>103</h6></div></th>
+                <th><div class="center"><h6>Holiday Inn Bucaramanga Cacique</h6></div></th>
+                <th><div class="center"><h6>Doble</h6></div></th>
+                <th><div class="center"><h6>Segundo</h6></div></th>
+                <th><div class="center"><h6>204</h6></div></th>
+                <th><div class="center"><h6>$200.500</h6></div></th>
+                <th><div class="center"><h6>Si</h6></div></th>
+                <th><div class="center"><h6>2 Personas</h6></div></th>
+                    <th><div class="center">
                         <a href="../subsitio/galeria.html#foto3" target="_blank">fotografia</a>
-                        </center></th>
+                        </div></th>
      
             </tr>
             <!-- NUEVO ELEMENTO EN LA LISTA 3 -->
             
             <tr>
-                <th><center><h6>104<h6></center></th>
-                <th><center><h6>Holiday Inn Bucaramanga Cacique<h6></center></th>
-                <th><center><h6>Queen<h6></center></th>
-                <th><center><h6>Cuarto<h6></center></th>
-                <th><center><h6>401<h6></center></th>
-                <th><center><h6>$250.500<h6></center></th>
-                <th><center><h6>Si<h6></center></th>
-                <th><center><h6>2 Persona<h6></center></th>
-                    <th><center>
+                <th><div class="center"><h6>104</h6></div></th>
+                <th><div class="center"><h6>Holiday Inn Bucaramanga Cacique</h6></div></th>
+                <th><div class="center"><h6>Queen</h6></div></th>
+                <th><div class="center"><h6>Cuarto</h6></div></th>
+                <th><div class="center"><h6>401</h6></div></th>
+                <th><div class="center"><h6>$250.500</h6></div></th>
+                <th><div class="center"><h6>Si</h6></div></th>
+                <th><div class="center"><h6>2 Persona</h6></div></th>
+                    <th><div class="center">
                         <a href="../subsitio/galeria.html#foto4" target="_blank">fotografia</a>
-                        </center></th>
+                        </div></th>
      
             </tr>
      
         <tr>
-            <th><center><h6>201<h6></center></th>
-            <th><center><h6>Mediterraneo Victoria Regia<h6></center></th>
-            <th><center><h6>Suite<h6></center></th>
-            <th><center><h6>Cuarto<h6></center></th>
-            <th><center><h6>405<h6></center></th>
-            <th><center><h6>$420.000<h6></center></th>
-            <th><center><h6>Si<h6></center></th>
-            <th><center><h6>2 Personas<h6></center></th>
-                <th><center>
+            <th><div class="center"><h6>201</h6></div></th>
+            <th><div class="center"><h6>Mediterraneo Victoria Regia</h6></div></th>
+            <th><div class="center"><h6>Suite</h6></div></th>
+            <th><div class="center"><h6>Cuarto</h6></div></th>
+            <th><div class="center"><h6>405</h6></div></th>
+            <th><div class="center"><h6>$420.000</h6></div></th>
+            <th><div class="center"><h6>Si</h6></div></th>
+            <th><div class="center"><h6>2 Personas</h6></div></th>
+                <th><div class="center">
                     <a href="../subsitio/galeria.html#foto1" target="_blank">fotografia</a>
-                    </center></th>
+                    </div></th>
     
         </tr>
         <!-- NUEVO ELEMENTO EN LA LISTA -->
         
         <tr>
-            <th><center><h6>102<h6></center></th>
-            <th><center><h6>Mediterraneo Victoria Regia<h6></center></th>
-            <th><center><h6>Individual<h6></center></th>
-            <th><center><h6>Segundo<h6></center></th>
-            <th><center><h6>205<h6></center></th>
-            <th><center><h6>$160.000<h6></center></th>
-            <th><center><h6>No<h6></center></th>
-            <th><center><h6>1 Persona<h6></center></th>
-                <th><center>
+            <th><div class="center"><h6>102</h6></div></th>
+            <th><div class="center"><h6>Mediterraneo Victoria Regia</h6></div></th>
+            <th><div class="center"><h6>Individual</h6></div></th>
+            <th><div class="center"><h6>Segundo</h6></div></th>
+            <th><div class="center"><h6>205</h6></div></th>
+            <th><div class="center"><h6>$160.000</h6></div></th>
+            <th><div class="center"><h6>No</h6></div></th>
+            <th><div class="center"><h6>1 Persona</h6></div></th>
+                <th><div class="center">
                     <a href="../subsitio/galeria.html#foto2" target="_blank">fotografia</a>
-                    </center></th>
+                    </div></th>
     
         </tr>
         <!-- NUEVO ELEMENTO EN LA LISTA 2 -->
         
         <tr>
-            <th><center><h6>103<h6></center></th>
-            <th><center><h6>Mediterraneo Victoria Regia<h6></center></th>
-            <th><center><h6>Doble<h6></center></th>
-            <th><center><h6>Segundo<h6></center></th>
-            <th><center><h6>204<h6></center></th>
-            <th><center><h6>$205.500<h6></center></th>
-            <th><center><h6>Si<h6></center></th>
-            <th><center><h6>2 Personas<h6></center></th>
-                <th><center>
+            <th><div class="center"><h6>103</h6></div></th>
+            <th><div class="center"><h6>Mediterraneo Victoria Regia</h6></div></th>
+            <th><div class="center"><h6>Doble</h6></div></th>
+            <th><div class="center"><h6>Segundo</h6></div></th>
+            <th><div class="center"><h6>204</h6></div></th>
+            <th><div class="center"><h6>$205.500</h6></div></th>
+            <th><div class="center"><h6>Si</h6></div></th>
+            <th><div class="center"><h6>2 Personas</h6></div></th>
+                <th><div class="center">
                     <a href="../subsitio/galeria.html#foto3" target="_blank">fotografia</a>
-                    </center></th>
+                    </div></th>
     
         </tr>
         <!-- NUEVO ELEMENTO EN LA LISTA 3 -->
         
         <tr>
-            <th><center><h6>104<h6></center></th>
-            <th><center><h6>Mediterraneo Victoria Regia<h6></center></th>
-            <th><center><h6>Queen<h6></center></th>
-            <th><center><h6>Cuarto<h6></center></th>
-            <th><center><h6>408<h6></center></th>
-            <th><center><h6>$270.500<h6></center></th>
-            <th><center><h6>Si<h6></center></th>
-            <th><center><h6>2 Persona<h6></center></th>
-                <th><center>
+            <th><div class="center"><h6>104</h6></div></th>
+            <th><div class="center"><h6>Mediterraneo Victoria Regia</h6></div></th>
+            <th><div class="center"><h6>Queen</h6></div></th>
+            <th><div class="center"><h6>Cuarto</h6></div></th>
+            <th><div class="center"><h6>408</h6></div></th>
+            <th><div class="center"><h6>$270.500</h6></div></th>
+            <th><div class="center"><h6>Si</h6></div></th>
+            <th><div class="center"><h6>2 Persona</h6></div></th>
+                <th><div class="center">
                     <a href="../subsitio/galeria.html#foto4" target="_blank"> fotografia</a>
-                    </center></th>
+                    </div></th>
     
         </tr>
     </table>
-</center>
+</div>
     
     <!-- TERMINA LA TABLA -->
         </article>
@@ -229,7 +231,7 @@ Hotel:
         <br>
     </section>
     <footer>
-        <center><p><h5>Esta pagina fue realizada por: TEAM 4</h5></p></center>
+        <div class="center"><h5>Esta pagina fue realizada por: TEAM 4</h5></div>
         <a href="../inicio.html">IR AL INICIO</a> <br>
         <a href="../subsitio/reserva.html"> IR A RESERVAR </a> <br>
         <a href="../subsitio/historial.html"> IR A VER HISTORIAL </a> <br>
@@ -240,5 +242,3 @@ Hotel:
         <a href="#arriba">IR ARRIBA</a>
     </footer>
 
-
-</body>
