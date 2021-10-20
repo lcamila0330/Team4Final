@@ -1,0 +1,65 @@
+
+        body{
+            background-image: url(../imagenes/descarga\ \(3\).png);
+            width: 99%;
+            background-repeat: no-repeat;
+            background-attachment: fixed
+        }
+        header{
+            background:rgba(0, 0, 0, 0.637);;
+            color:rgb(255, 255, 255);
+            align-content: center;
+            height:7em;
+            margin: 1%;
+        }
+        header img{
+            height: 50px;
+            width: 300px;
+            align-items: flex-end;
+        }
+         nav{
+             height:10em;
+             color: white;
+             background: rgba(0, 0, 0, 0.733);
+         }
+         section{
+             height:34em;
+             /* width: 50em; */
+         }
+         footer{
+             background: rgba(0, 0, 0, 0.76);
+             color:rgb(255, 255, 255);
+             height:15em;
+             padding: 1%;
+
+         }
+         aside{
+             color: rgb(255, 255, 255);
+             height:5em;
+
+         }
+         #articulo1{
+             width: 50em;
+             margin-left: 18em;
+             background: rgba(63, 54, 54, 0.794);
+             color:rgb(255, 255, 255);
+             /* font-size: x-large; */
+         }
+
+         @media screen and (max-width:700px){
+            body{
+              background: rgb(25, 125, 143);
+              }
+            .main{
+              width: 100%;
+              }
+            @media screen and (max-width:400px){
+              body{
+                background: rgb(185, 159, 155);
+              }
+            .main{
+                 width: 100%;
+              }
+            }
+          }
+
