@@ -1,0 +1,104 @@
+header{
+  background:rgba(0, 0, 0, 0.637);;
+  color:rgb(255, 255, 255);
+  align-content: center;
+  height:7em;
+  margin: 1%;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+}
+header img{
+  height: 50px;
+  width: 300px;
+  align-items: flex-end;
+}
+
+.myDiv {
+  border: 1px white;
+  background-color: rgb(255, 255, 255);    
+  text-align: center;
+  color: black
+}
+.myDiv {
+  border: 1px rgb(0, 0, 0);
+  background-color:rgba(47, 46, 46, 0.582);    
+  text-align: center;
+  color: white;
+}
+#logp {
+  height: 90px;
+  width: 90px;
+  position:none;
+  bottom:center;
+}
+/* div{
+
+} */
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondologin.jpg) center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+}
+
+/* #principal{ 
+  background;
+}    */
+
+#content { 
+  overflow:auto; 
+  width: 1000px; 
+  background: white ; 
+} 
+
+#left, #right { 
+  width: 40%; 
+  margin:5px; 
+  padding: 1em; 
+} 
+
+#left  { float:left;  }
+#right { float:right; } 
+.navbar-brand {
+  margin-bottom: 0;
+  border-radius: 0;
+  
+}
+footer {
+  background: rgba(0, 0, 0, 0.541);
+  color: white;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 60px) {
+.carousel-caption {
+  display: none; 
+}
+}
+@media screen and (max-width:700px){
+  body{
+    background: rgb(25, 125, 143);
+    }
+  .main{
+    width: 100%;
+    }
+  @media screen and (max-width:400px){
+    body{
+      background: rgb(185, 159, 155);
+    }
+  .main{
+       width: 100%;
+    }
+  }
+}

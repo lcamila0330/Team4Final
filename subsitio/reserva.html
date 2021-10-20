@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>Reserva</title>
+
+<head>
+ <meta charset="utf-8">
+<meta  name="viewport"    content="width=device-width,initial-scale=1.0"  >
+  
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="../estilos/reserva.css">
+ 
+</head>
+
+</head>
+<body>
+    
+    <a name="arriba"></a>
+    <header>
+        <img src="../imagenes/checkinBGA.png" alt="logo">
+         <center>
+          <center><h1>Reserva</h1></center>
+    </center>
+        
+</header>
+<body>
+  <nav>
+    <center>
+        <a class="btn btn-outline-info" href="../subsitio/inicio.html" ><b>Inicio</b> </a>
+        <a class="btn btn-outline-info" href="../subsitio/historial.html" ><b>Historial</b> </a>
+        <a class="btn btn-outline-info" href="../subsitio/busquedahotel-habitacion.html" > <b>Buscar habitación</b></a>
+        <a class="btn btn-outline-info" href="../subsitio/galeria.html"> <b>Galeria</b></a> 
+        <a class="btn btn-outline-info" href="../subsitio/darsedebaja.html" > <b>Darse de baja</b> </a>
+        <a class="btn btn-outline-info" href="../subsitio/ajustesdeperfil.html" > <b>Ajustes de perfil</b> </a>    
+    </center>
+    </nav>
+        <nav> <center>
+          <hr>
+          <hr>
+              <center><img src="../botones/fotoreserva.png" class="Avatar" alt="Avatar Image"></center>
+              
+        <hr>
+
+        <div class="myDiv">
+          <h2>Responder a través de </h2>
+          <p>Seleccione la  respuesta:</p>
+        </div>
+        <form action="/action_page.php" method="get"  class="myDiv">
+          <input type="checkbox" name="vehicle1" value="email">
+          <label for="email"> Email</label><br>
+          <input type="checkbox" name="vehicle2" value="telefono">
+          <label for="telefono"> Telefono</label><br>
+          <input type="checkbox" name="correo" value="correo" checked>
+          <label for="correo"> Correo</label><br><br>
+          <!-- <input type="submit" value="Respuesta"> -->
+        </form>
+        <div class="myDiv">
+          <h2>Reserva condominio al cual quiere ingresar </h2>
+          <p>Seleccione calendario de reserva</p>
+        </div>
+        <form action="" class="myDiv">
+                <label for="cars">Condominio seleccion:</label>
+                <select name="cars" id="cars">
+                  <option value="cbogota">condominio bogota</option>
+                  <option value="cmedellin">condominio medellin</option>
+                  <option value="ccali">condominio cali</option>
+                  <option value="cvillavicencio">condominio villavicencio</option>
+                </select>
+          <br><br>
+            <label for="fingreso">Fecha de ingreso:</label>
+            <input type="date" id="fingreso" name="fingreso">
+            <label for="fsalida">Fecha de salida:</label>
+            <input type="date" id="fsalida" name="fsalida"><br><br>
+            <label for="nvisitantes">Número de visitantes  :</label>
+            <input type="text" id="nvisitantes" name="nvisitantes">
+            <label for="nhabitaciones">Número de habitaciones:</label>
+            <input type="text" id="nhabitaciones" name="nhabitaciones">
+            <label for="nnoches">Número de noches:</label>
+            <input type="text" id="nnoches" name="nnoches"><br><br>
+            <label for="comentarios">Comentarios y consultas:</label><br><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50">
+            </textarea><br><br>
+                    <input type="submit" value="Enviar">
+        </form>
+    <footer>
+      <center><p><h5>Esta pagina fue realizada por: TEAM 4</h5></p></center>
+    <a href="inicio.html" >IR AL INICIO</a> <br>
+    <a href="historial.html"> IR A VER HISTORIAL </a> <br>
+    <a href="ajustesdeperfil.html"> IR A ACTUALIZAR DATOS </a> <br>
+    <a href="busquedahotel-habitacion.html"> IR A BUSCAR HABITACIONES </a> <br>
+    <a href="galeria.html"> IR A GALERIA </a> <br>
+    <a href="darsedebaja.html"> IR A DARSE DE BAJA </a> <br><br>
+  </footer>
+</body>
+</html>

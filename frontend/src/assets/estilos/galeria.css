@@ -1,0 +1,59 @@
+
+        body{
+            background-image: url(../imagenes/fondologin.jpg);
+            overflow: auto;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-size:inherit;
+            font-family: sans-serif;
+            background-repeat: no-repeat;
+            background-attachment: fixed
+           /*  height: 100vh;  */  
+        }
+ 
+        header{
+            background:rgba(0, 0, 0, 0.885);
+             color:rgb(255, 255, 255);
+             text-align: auto;
+             align-content: auto;
+             height: 7em;
+             padding: 3px;
+         }
+         header img{
+          height: 50px;
+          width: 300px;
+          align-items: flex-end;
+         }
+         nav{
+             color: white;
+             height:10em;
+         }
+         footer{
+            background:rgba(0, 0, 0, 0.885);
+            color:rgb(255, 255, 255);
+            height: 5em;
+         }
+         div{
+            color: white;
+         }
+
+         @media screen and (max-width:700px){
+            body{
+              background: rgb(25, 125, 143);
+              }
+            .main{
+              width: 100%;
+              }
+            @media screen and (max-width:400px){
+              body{
+                background: rgb(185, 159, 155);
+              }
+            .main{
+                 width: 100%;
+              }
+            }
+          }
+
+        
+         

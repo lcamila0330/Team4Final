@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 1%;
+    background: url(../imagenes/descarga\ \(3\).png) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    /* height: 100vh; */
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+  }
+  header{
+    background:rgba(0, 0, 0, 0.582);
+     color:rgb(255, 255, 255);
+     text-align: auto;
+     align-content: auto;
+/*      height: 7em;
+     padding: 3px; */
+     height: 20%;
+     padding: 1%;
+     width: 100%;
+ }
+ header img{
+  height: 50px;
+  width: 300px;
+  align-items: flex-end;
+ }
+ nav{
+   width: 57%;
+   background: rgba(0, 0, 0, 0.411);
+   color: white;
+   margin: 1%;
+   padding: 5px;
+   height: 3em; 
+   /* background: rgba(0, 0, 0, 0.623); */
+ }
+
+ footer{
+      background:rgba(0, 0, 0, 0.288);
+      color:rgb(255, 255, 255);
+      height:2em;
+ }
+
+ @media screen and (max-width:700px){
+    body{
+      background: rgb(25, 125, 143);
+      }
+    .main{
+      width: 100%;
+      }
+    @media screen and (max-width:400px){
+      body{
+        background: rgb(185, 159, 155);
+      }
+    .main{
+         width: 100%;
+      }
+    }
+  }
+/*  aside{
+     background: rgb(125, 192, 189);
+     color: rgb(0, 0, 0);
+     height:5em;
+
+ } */
+/*  #articulo1{/* 
+     background: rgb(241, 238, 238); */
+   /*   color:rgb(15, 15, 15); */
+     /* font-size: x-large; */
+/*  } */ 
+/*  .articulov{
+     /* font-family: 'Courier New', Courier, monospace; */
+   /*   font-size: 27px;
+     background: rgb(255, 255, 255);
+ }  */
